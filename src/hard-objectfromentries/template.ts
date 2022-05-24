@@ -1,0 +1,1 @@
+type ObjectFromEntries<T extends [string, any]> =  {[A in T as A[0]]: A[1]}
